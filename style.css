@@ -38,6 +38,7 @@ main {
   width: 61.25rem;
 }
 
+
 #produto {
   display: flex;
   & > #opcoes-produto {
@@ -55,6 +56,14 @@ main {
   cursor: pointer;
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.link2 {
+  color: #000000;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
   }
 }
 
