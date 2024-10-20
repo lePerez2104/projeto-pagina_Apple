@@ -54,6 +54,7 @@ main {
 .link {
   color: #0066cc;
   cursor: pointer;
+  text-decoration: none;
   &:hover {
     text-decoration: underline;
   }
@@ -62,8 +63,9 @@ main {
 .link2 {
   color: #000000;
   cursor: pointer;
+  text-decoration: none;
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
